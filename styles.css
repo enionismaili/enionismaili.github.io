@@ -419,3 +419,63 @@ body {
         background-color: rgba(255, 152, 0, 0.2);
     }
 }
+
+
+/* Small Laptops (1024px - 1366px) */
+@media screen and (max-width: 1366px) {
+    .header {
+        padding: 10px 30px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .navbar ul {
+        gap: 15px;
+    }
+
+    .about h2,
+    .services h2,
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .service-item img {
+        height: 300px;
+    }
+}
+
+/* Extra Small Laptops (900px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 10px 20px;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .about h2,
+    .services h2,
+    .contact h2 {
+        font-size: 1.8rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+
+    .service-item img {
+        height: 250px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
